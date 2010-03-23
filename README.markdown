@@ -20,3 +20,20 @@ How do I use this?
 
 Edit settings in ~/bin/config-git to reflect your desired git settings and run
 <pre><code>config-git</code></pre>
+
+### SSH Keys
+
+Run 
+<pre><code>ssh-keygen -t rsa</code></pre>
+
+This will generate an rsa key on your local machine. Save the key in it’s default location. Enter a passphrase for added security.
+
+<pre><code>run install-key [hostname]</code></pre>
+
+Enter your password for the remote machine. This will copy the key to the remote machine and deal with permissions etc.
+
+Now when you run
+
+<pre><code>ssh [hostname]</code></pre>
+
+you will be logged straight in. (If you chose to add a passphrase you will need to enter it or have your operating system remember it.)
