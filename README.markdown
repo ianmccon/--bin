@@ -1,4 +1,4 @@
-Mark's Script Collection
+MarkBin Script Collection
 ========================
 
 What is this?
@@ -8,10 +8,19 @@ This is just a collection of small useful scripts that make working with the com
 
 To make the most of these scripts, install them on every new computer that you work on. They will help to get you up and running with all your defaults in place.
 
-How do I install this?
-----------------------
+Installation
+------------
 Ensure that ~/bin is part of your path and
 run <pre><code>git checkout git://github.com/markmcconachie/--bin.git ~/bin </code></pre>
+
+Updating
+--------
+To update the scripts
+run <pre><code>update-markbin</code></pre>
+
+Uninstall
+---------
+Just remove the ~/bin directory
 
 How do I use this?
 ------------------

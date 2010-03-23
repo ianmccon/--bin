@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+pushd .
+echo "Updating MarkBin Scripts"
+echo "========================"
+cd ~/bin
+git pull origin master
+echo "Done"
+popd
