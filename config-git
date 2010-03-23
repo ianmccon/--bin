@@ -4,7 +4,15 @@
 #  Sets up git with my favoured settings and aliases
 # 
 
-git config --global user.name "Mark McConachie"
-git config --global user.email mark@markmcconachie.com
+git config --global 	user.name "Mark McConachie"
+git config --global 	user.email mark@markmcconachie.com
+
+git config --global 	core.editor="mate -w"
+
+git config --global 	alias.co=checkout
+git config --global 	alias.br=branch
+git config --global 	alias.ci=commit
+git config --global 	alias.st=status
+git config --global 	alias.unstage="reset HEAD --"
 
 echo "Git Config Complete"
