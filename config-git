@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# 
+#  Sets up git with my favoured settings and aliases
+# 
+
+git config --global user.name "Mark McConachie"
+git config --global user.email mark@markmcconachie.com
+
+echo "Git Config Complete"
