@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# A simple script to return your generated key
+# required for github etc
+
+echo ""
+echo "Your Public RSA Key"
+echo "==================="
+
+cat ~/.ssh/id_rsa.pub
+
+echo ""

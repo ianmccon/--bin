@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# A simple script to generate a rsa key
+
+
+rm -f ~/.ssh/id_rsa.pub
+rm -f ~/.ssh/id_rsa
+ssh-keygen -t rsa -f ~/.ssh/id_rsa

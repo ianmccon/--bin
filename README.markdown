@@ -24,9 +24,9 @@ Edit settings in ~/bin/config-git to reflect your desired git settings and run
 ### SSH Keys
 
 Run 
-<pre><code>ssh-keygen -t rsa</code></pre>
+<pre><code>gen-key</code></pre>
 
-This will generate an rsa key on your local machine. Save the key in it’s default location. Enter a passphrase for added security.
+This will generate an rsa key on your local machine. Enter a passphrase for added security.
 
 <pre><code>run install-key [hostname]</code></pre>
 
@@ -37,3 +37,6 @@ Now when you run
 <pre><code>ssh [hostname]</code></pre>
 
 you will be logged straight in. (If you chose to add a passphrase you will need to enter it or have your operating system remember it.)
+
+#### Getting your key (for adding to github etc)
+<pre><code>get-public-key</code></pre>
